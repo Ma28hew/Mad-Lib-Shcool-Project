@@ -12,9 +12,7 @@ function buildMadLib() {
     let noun = document.getElementById("noun").value;
 
     // Process
-    let result = '"There are to many ' + pluralNoun + ' on this ' + adjective + '
-    airplane!", I scremed. "Somebody has to ' + verb + ' on the ' + noun + ' 
-    to solve this problem"';
+    let result = '"We need to get some ' + pluralNoun + ' for our ' + adjective + ' wedding!" You need to ' + verb + ' or you might not be able to get my favourite. ' + noun + ' Please?"';
     
     // Output
     document.getElementById("result").innerHTML = result;

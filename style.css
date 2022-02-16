@@ -1,4 +1,30 @@
 html {
-    background: url("img/sky.jpeg") no-repeat center fixed
+    background: url("img/sky.jpeg") no-repeat center fixed;
+    background-size: cover;
 }
 
+body {
+    background: rgba(255, 2555, 255, 0.8);
+    width: 500px;
+    padding: 50px 100px;
+    margin: 25px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 25px;
+}
+
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: midnightblue;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#result {
+    border: 1px solid orange;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
